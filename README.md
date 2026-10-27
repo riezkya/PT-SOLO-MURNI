@@ -1,50 +1,35 @@
-# Proyek React + Tailwind CSS v4 (Vite)
+# PT Solo Murni - Project Repository
 
-Proyek ini telah dikonfigurasi menggunakan **React 19**, **Tailwind CSS v4** (CSS-first engine), **Vite**, dan **Lucide React**.
+Repositori proyek PT Solo Murni.
 
----
-
-## 🚀 Perintah Cepat
-
-### 1. Menjalankan Server Pengembangan (Dev)
-```bash
-npm run dev
-```
-Buka browser di alamat yang tertera di terminal (biasanya `http://localhost:5173`).
-
-### 2. Membangun Proyek untuk Production (Build)
-```bash
-npm run build
-```
-
-### 3. Meninjau Hasil Build (Preview)
-```bash
-npm run preview
-```
-
----
-
-## 📁 Struktur Direktori
+## Struktur Direktori
 
 ```text
-├── index.html          # HTML entry point dengan Google Fonts (Plus Jakarta Sans)
-├── package.json        # Dependensi dan script NPM
-├── vite.config.js      # Konfigurasi Vite & plugin @tailwindcss/vite
-├── src/
-│   ├── main.jsx        # Root entry point React
-│   ├── App.jsx         # Komponen utama dengan starter UI interaktif modern
-│   ├── index.css       # File konfigurasi Tailwind CSS v4 (@import "tailwindcss";)
-│   └── App.css         # Custom styling tambahan jika diperlukan
+PT-SOLO-MURNI/
+├── frontend/        # Aplikasi Frontend (React 19 + Tailwind CSS v4 + Vite)
+│   ├── src/
+│   ├── public/
+│   ├── package.json
+│   ├── vite.config.js
+│   └── README.md
+└── ...
 ```
 
----
+## Menjalankan Aplikasi Frontend
 
-## 🎨 Konfigurasi Tailwind CSS v4
+1. Masuk ke direktori `frontend`:
+   ```bash
+   cd frontend
+   ```
 
-Pada versi Tailwind CSS v4:
-- Menggunakan plugin resmi `@tailwindcss/vite` di [vite.config.js](file:///d:/RIEZKYA/SEMESTER%207/Tubes%20magang/PT%20SM/vite.config.js).
-- Diimpor langsung pada file [src/index.css](file:///d:/RIEZKYA/SEMESTER%207/Tubes%20magang/PT%20SM/src/index.css) menggunakan:
-  ```css
-  @import "tailwindcss";
-  ```
-- Tidak memerlukan file `tailwind.config.js` atau `postcss.config.js` tambahan.
+2. Jalankan development server:
+   ```bash
+   npm run dev
+   ```
+
+3. Build untuk production:
+   ```bash
+   npm run build
+   ```
+
+Untuk dokumentasi lengkap frontend, silakan lihat [frontend/README.md](frontend/README.md).
