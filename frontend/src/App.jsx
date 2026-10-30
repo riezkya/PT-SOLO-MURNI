@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import Register from './components/Register/Register'
 import LoginForm from './components/Login/LoginForm'
-import Dashboard from './components/Dashboard/dashboard'
+import Dashboard from './components/Dashboard/Dashboard'
 
 export default function App() {
   const [currentView, setCurrentView] = useState('register')

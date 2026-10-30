@@ -92,7 +92,7 @@ export default function LoginForm({
                 <input
                   type="text"
                   required
-                  placeholder="JohnSmith"
+                  placeholder="Masukkan username"
                   value={formData.username}
                   onChange={(e) => setFormData({ ...formData, username: e.target.value })}
                   className="w-full rounded-xl border border-slate-200/90 bg-white py-3 pr-4 pl-10 text-sm text-slate-800 placeholder:text-slate-400 focus:border-[#0e355c] focus:outline-none focus:ring-2 focus:ring-[#0e355c]/10 transition-colors"
